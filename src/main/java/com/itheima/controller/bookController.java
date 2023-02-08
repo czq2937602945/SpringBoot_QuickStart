@@ -11,6 +11,9 @@ public class bookController {
     @GetMapping("/{id}")
     public String getById(@PathVariable Integer id){
         System.out.println("id==" +id);
+        System.out.println(1222);
+        System.out.println(1222);
+        System.out.println(1222);
         return "hello,springboot";
     }
 }
